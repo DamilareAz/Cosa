@@ -6,15 +6,13 @@
 
 
 img {
-    max-width: 100%;
-    height: auto;
-    width: auto\9; /* ie8 */
+    display: block;
+    margin: auto;
     display: block;
 }
 
 body {
-background-color: black;
-background-position:50% 50px;
+background: black;
 }
 
 .auidio-container{
@@ -29,17 +27,13 @@ audio {
 </style>
 </head>
 
-<body background style= "background-repeat: no-repeat;
-min-height: 100%
-min-width: 100%
-background-position: 50% 50px;
-background-size: 700px;">
+<body>
 
-<img src = "Logo.PNG" usemap ="#cosa">
-<map name= "cosa">
-     <area shape="circle" coords="200,300,600"  alt= "nostra"
-    href= "https://twitter.com/wencosa?s=21&t=OGswn9dEOoDSKV7VoOqFtw">
-</map>
+<div>
+ <a href= "https://twitter.com/wencosa?s=21&t=OGswn9dEOoDSKV7VoOqFtw">
+<img src="https://pbs.twimg.com/profile_images/1624746384594292736/W3ngUNjE_400x400.jpg">
+</a>
+</div>
 
 <audio controls autoplay loop> 
 <source src= "Cosa audio.mpeg"
@@ -51,6 +45,8 @@ type = "audio/OGG">
 Your Browser Does Not Support The Audio Format.
 </audio>
 
-    
+
+
+
 </body>
 </html>
